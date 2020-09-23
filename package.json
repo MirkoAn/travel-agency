@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "dev": "webpack-dev-server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -20,5 +21,20 @@
   "dependencies": {
     "lodash": "^4.17.20",
     "normalize.css": "^8.0.1"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.0.0",
+    "css-loader": "^4.3.0",
+    "postcss": "^8.0.5",
+    "postcss-import": "^12.0.1",
+    "postcss-loader": "^4.0.2",
+    "postcss-mixins": "^7.0.0",
+    "postcss-nested": "^5.0.0",
+    "postcss-preset-env": "^6.7.0",
+    "postcss-simple-vars": "^6.0.0",
+    "style-loader": "^1.2.1",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
   }
 }
